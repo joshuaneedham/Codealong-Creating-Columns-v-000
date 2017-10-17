@@ -113,6 +113,14 @@ figcaption {
 }
 
 /*/////// SECTIONS ///////*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+}
 section {
 margin-bottom: 20px;
 padding-bottom: 20px;
@@ -132,5 +140,5 @@ padding-bottom: 20px;
   display: block;
   width: 40px;
   height: 40px;
-  background-color: yellow; 
+  background-color: yellow;
 }
