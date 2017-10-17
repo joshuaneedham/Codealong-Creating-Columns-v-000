@@ -72,7 +72,10 @@ figcaption {
 }
 
 /*/////// LAYOUT ///////*/
-.wrapper {
+* {
+  box-sizing: border-box;
+}
+  .wrapper {
   width: 960px;
   margin: 0 auto;
   background-color: #eee;
@@ -105,4 +108,10 @@ figcaption {
 
 .first {
   margin-left: 0%;
+}
+
+/*/////// SECTIONS ///////*/
+section {
+margin-bottom: 20px;
+padding-bottom: 20px;
 }
